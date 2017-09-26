@@ -71,7 +71,7 @@ export class DashboardComponent implements OnInit {
       const dataDailySalesChart: any = {
           labels: ['Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab', 'Dom'],
           series: [
-              [12, 17, 7, 17, 23, 18, 38]
+              [13, 14, 9, 20, 15, 18, 28]
           ]
       };
 
@@ -80,7 +80,7 @@ export class DashboardComponent implements OnInit {
               tension: 0
           }),
           low: 0,
-          high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+          high: 40, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
           chartPadding: { top: 0, right: 0, bottom: 0, left: 0},
       }
 
@@ -92,9 +92,9 @@ export class DashboardComponent implements OnInit {
       /* ----------==========     Completed Tasks Chart initialization    ==========---------- */
 
       const dataCompletedTasksChart: any = {
-          labels: ['12am', '3pm', '6pm', '9pm', '12pm', '3am', '6am', '9am'],
+          labels: ['Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab', 'Dom'],
           series: [
-              [230, 750, 450, 300, 280, 240, 200, 190]
+              [20, 23, 27, 33, 33, 34, 35]
           ]
       };
 
@@ -103,7 +103,7 @@ export class DashboardComponent implements OnInit {
               tension: 0
           }),
           low: 0,
-          high: 1000, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+          high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
           chartPadding: { top: 0, right: 0, bottom: 0, left: 0}
       }
 
@@ -117,9 +117,9 @@ export class DashboardComponent implements OnInit {
       /* ----------==========     Emails Subscription Chart initialization    ==========---------- */
 
       var dataEmailsSubscriptionChart = {
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        labels: ['Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab', 'Dom'],
         series: [
-          [542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]
+          [12, 32, 20, 50, 9, 86, 61]
 
         ]
       };
@@ -128,7 +128,7 @@ export class DashboardComponent implements OnInit {
               showGrid: false
           },
           low: 0,
-          high: 1000,
+          high: 100,
           chartPadding: { top: 0, right: 5, bottom: 0, left: 0}
       };
       var responsiveOptions: any[] = [
